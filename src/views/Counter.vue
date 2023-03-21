@@ -15,6 +15,8 @@ export default {
     emit:[],
 
     setup (){
+    console.log('el setup se llamó');
+
        const {counter, decrease, increase} = useCounter(2) // llamo la funcion useCounter y la desestructuro
 
        return{

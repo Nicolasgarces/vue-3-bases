@@ -21,6 +21,7 @@ export default {
   name: 'HomeView',
 
     setup() {
+    console.log('el setup se llamó');
 
     const ironman = ref({ name: 'Tony', age: 50 })
     const hulk= reactive({ name: 'Bruce', age: 50})
